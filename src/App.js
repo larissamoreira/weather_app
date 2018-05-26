@@ -21,7 +21,7 @@ class App extends React.Component {
         const country = e.target.elements.country.value;
         const api_call = await fetch(`http://api.openweathermap.org/data/2.5/find?q=${city},${country}&appid=${API_KEY}&units=metric`);
         const data = await api_call.json();
-        if(city && country) {
+        if (city && country) {
             console.log(data.list[0]);
             this.setState({
                 temperature: data.list[0].main.temp,
@@ -45,19 +45,32 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Titles />
-                <Form getWeather={this.getWeather}/>
-                <Weather 
-                    temperature={this.state.temperature}
-                    city={this.state.city}
-                    country={this.state.country}
-                    humidity={this.state.humidity}
-                    description={this.state.description}
-                    error={this.state.error}
-                />
+                <div className="wrapper">
+                    <div className="main">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-xs-5 title-container">
+                                    <Titles />
+                                </div>
+                                <div className="col-xs-7 form-container">
+                                    <Form getWeather={this.getWeather} />
+                                    <Weather
+                                        temperature={this.state.temperature}
+                                        city={this.state.city}
+                                        country={this.state.country}
+                                        humidity={this.state.humidity}
+                                        description={this.state.description}
+                                        error={this.state.error}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }
 };
 
 export default App;
+
