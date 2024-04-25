@@ -29,5 +29,3 @@ const Weather = props => (
 )
 
 export default Weather;
-
-//Pode deixar assim ^ quando não tem states.
