@@ -1,27 +1,18 @@
 {
   "files": {
-    "main.css": "/weather_finder/static/css/main.a12bd6c6.chunk.css",
-    "main.js": "/weather_finder/static/js/main.27302c27.chunk.js",
-    "main.js.map": "/weather_finder/static/js/main.27302c27.chunk.js.map",
-    "runtime-main.js": "/weather_finder/static/js/runtime-main.050199a5.js",
-    "runtime-main.js.map": "/weather_finder/static/js/runtime-main.050199a5.js.map",
-    "static/css/2.1b627c76.chunk.css": "/weather_finder/static/css/2.1b627c76.chunk.css",
-    "static/js/2.96b28168.chunk.js": "/weather_finder/static/js/2.96b28168.chunk.js",
-    "static/js/2.96b28168.chunk.js.map": "/weather_finder/static/js/2.96b28168.chunk.js.map",
+    "main.css": "/weather_finder/static/css/main.70fac317.chunk.css",
+    "main.js": "/weather_finder/static/js/main.f8f452cb.chunk.js",
+    "main.js.map": "/weather_finder/static/js/main.f8f452cb.chunk.js.map",
+    "runtime~main.js": "/weather_finder/static/js/runtime~main.351223d3.js",
+    "runtime~main.js.map": "/weather_finder/static/js/runtime~main.351223d3.js.map",
+    "static/css/2.98036eff.chunk.css": "/weather_finder/static/css/2.98036eff.chunk.css",
+    "static/js/2.070a5080.chunk.js": "/weather_finder/static/js/2.070a5080.chunk.js",
+    "static/js/2.070a5080.chunk.js.map": "/weather_finder/static/js/2.070a5080.chunk.js.map",
     "index.html": "/weather_finder/index.html",
-    "precache-manifest.ee4028f6247a48598c2a93aedae1fb80.js": "/weather_finder/precache-manifest.ee4028f6247a48598c2a93aedae1fb80.js",
+    "precache-manifest.760f320e1d01e1d6c4f46f63a0e4bd7b.js": "/weather_finder/precache-manifest.760f320e1d01e1d6c4f46f63a0e4bd7b.js",
     "service-worker.js": "/weather_finder/service-worker.js",
-    "static/css/2.1b627c76.chunk.css.map": "/weather_finder/static/css/2.1b627c76.chunk.css.map",
-    "static/css/main.a12bd6c6.chunk.css.map": "/weather_finder/static/css/main.a12bd6c6.chunk.css.map",
-    "static/js/2.96b28168.chunk.js.LICENSE.txt": "/weather_finder/static/js/2.96b28168.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/weather_finder/static/media/bg.b6796c73.jpg",
-    "static/media/bootstrap.min.css": "/weather_finder/static/media/glyphicons-halflings-regular.fa277232.woff"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.050199a5.js",
-    "static/css/2.1b627c76.chunk.css",
-    "static/js/2.96b28168.chunk.js",
-    "static/css/main.a12bd6c6.chunk.css",
-    "static/js/main.27302c27.chunk.js"
-  ]
+    "static/css/2.98036eff.chunk.css.map": "/weather_finder/static/css/2.98036eff.chunk.css.map",
+    "static/css/main.70fac317.chunk.css.map": "/weather_finder/static/css/main.70fac317.chunk.css.map",
+    "static/media/App.css": "/weather_finder/static/media/bg.b6796c73.jpg"
+  }
 }
