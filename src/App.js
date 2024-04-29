@@ -21,7 +21,7 @@ const App = () => {
         const country = e.target.elements.country.value;
         const api_call = await fetch(`https://api.openweathermap.org/data/2.5/find?q=${city},${country}&appid=${API_KEY}&units=metric`);
         const data = await api_call.json();
-        if (city && country) {
+        if (data && data.list.length > 0) {
             setWeather({
                 temperature: data.list[0].main.temp,
                 city: data.list[0].name,
